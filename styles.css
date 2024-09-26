@@ -1,0 +1,365 @@
+body{
+  margin:0;
+  font-family: 'Teko', sans-serif;
+}
+/*header*/
+#header{
+    display: flex;
+    background-color: black;
+    justify-content: flex-start;
+    text-align: center;
+    position: sticky;
+}
+#header .pubg-logo{
+  padding: 10px 2rem;
+  background-color: black;
+  cursor: pointer;
+  font-size: 0.5rem;
+}
+ .nav-bar{
+  padding: 10px 10px;
+}
+.nav-bar ul{
+  display: flex;
+  padding: 1rem 0 0 1rem;
+}
+.nav-bar ul li{
+  padding-right: 15px;
+  list-style: none;
+  text-align: center;
+  padding-left:0;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  color: rgba(255,255,255,0.50);
+  font-weight: normal;
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+  padding-right: 30px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.nav-bar ul li a.nar-bar-home{
+  color: #f2a900;
+}
+.nav-bar ul li a:hover{
+  color: #fff;
+}
+
+.social-icons{
+  padding-top: 5px;
+  margin-left: auto;
+}
+.social-icons ul{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  list-style: none;
+}
+.social-icons ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size:22px;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+.social-icons ul li a:hover{
+  color: #f2a900;
+}
+
+/*section1*/
+#title1 .banner{
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  overflow: revert;
+  align-items: center;
+}
+@media screen and (max-width: 1024px)
+.banner {
+    display: none!important;
+}
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  width: 100%;
+  pointer-events: none;
+  background-repeat: no-repeat;
+}
+.banner video+span{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imgcover{
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+ p .section-title{
+  position: relative;
+  margin-top: 2rem;
+  margin-right:35rem;
+  align-items: flex-start;
+  justify-items:flex-start;
+  overflow: overlay;
+  height: auto;
+  width: 700px;
+}
+.banner1{
+  background-size: cover;
+  display: center;
+  justify-content: center;
+  overflow: revert;
+  align-items: center;
+}
+/*buttons */
+.banner1 .btns{
+  position: relative;
+  align-items: flex-start;
+  overflow: overlay;
+  margin-left: 3rem;
+
+}
+/*Button styling*/
+ input[type=button] {
+   cursor: pointer;
+   font-family: 'Teko', sans-serif;
+   width: 25rem;
+   height: 5rem;
+   background-color: #2c2f3f;
+   color: #fff;
+   border: none;
+   padding: 2px;
+}
+ p .btn1{
+  color: #2c2f3f;
+  background-color:#f2a900;
+  font-size: 2.5rem;
+  font-weight:bolder;
+  letter-spacing: 1px;
+  border: none;
+}
+p .btn2{
+  font-size: 1.5rem;
+}
+/* p .section-titlebot {
+  position: relative;
+  margin-left:105rem;
+  margin-top: 15rem;
+  align-items: flex-end;
+  height: auto;
+  width: 450px;
+  overflow: overlay;
+}
+*/
+/*section 2*/
+#youtube .heading{
+  color: #2c2f3f;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 5rem 0 2rem 0;
+  letter-spacing: auto;
+  font-family: 'Teko', sans-serif;
+  font-weight: bold;
+}
+#youtube .youtubevideo{
+  text-align: center;
+}
+#youtube .youtubevideo .iframe1{
+  border: none;
+}
+
+/* section 3 */
+#pre-register{
+  margin:5rem 0 0 0;
+  text-align:center;
+  background-color: black;
+}
+#pre-register .paragraphs{
+  margin: 2rem 0 0 0;
+  padding: 5rem 0 2rem 0;
+}
+#pre-register .pre-r-rewards1,.pre-r-rewards2{
+  color: #fff;
+}
+#pre-register .pre-r-rewards1{
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: auto;
+}
+#pre-register .pre-r-rewards2{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: auto;
+}
+#pre-register .date1{
+  margin: 0;
+  padding: 0;
+  color: #f2a900;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: auto;
+  font-family: 'Teko', sans-serif;
+}
+
+/* Section 4 */
+#News{
+  text-align: center;
+}
+#News .News1 {
+  color: #333;
+  font-size: 3.5rem;
+  font-family: 'Teko', sans-serif;
+  font-weight: bolder;
+  padding: 3rem 0 1rem 0;
+}
+.cardlist .col {
+  text-align: center;
+}
+.card-text {
+  font-family: 'Teko', sans-serif;
+  color:#333;
+  text-align: left;
+  line-height: 1rem;
+  font-weight: normal;
+  font-size: 20px;
+}
+.card-text1{
+  font-family: 'Teko', sans-serif;
+  color:#999;
+  text-align: left;
+  line-height: 1rem;
+  font-weight: normal;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+/* Section 5 */
+#Social-Media{
+  text-align: center;
+}
+#Social-Media .Social-heading{
+  color: #333;
+  font-size: 3.5rem;
+  font-family: 'Teko', 'Oswald', sans-serif;
+  font-weight: bolder;
+  padding: 3rem 0 0 0;
+}
+#Social-Media .social-icons2 {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-right: 2rem;
+  padding-top: 0;
+}
+#Social-Media .social-icons2 li{
+  padding: 0 1rem;
+  font-size: 3rem;
+  color: #333;
+}
+#Social-Media .social-icons2 li a{
+  color:#333;
+  text-align: center;
+  padding: auto;
+}
+
+#Social-Media .social-icons2 li a:hover{
+  color:#f2a900;
+}
+
+.cardlist1 .col1 {
+  text-align: center;
+}
+.card-textt {
+  font-family: 'Teko', sans-serif;
+  color:#999;
+  text-align: left;
+  line-height: 1.5rem;
+  font-weight: normal;
+  font-size: 20px;
+}
+.card-text2{
+  font-family: 'Teko', sans-serif;
+  color:#999;
+  text-align: left;
+  line-height: 1rem;
+  font-weight: normal;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.card .card-img-top1:hover{
+  color:#f2a900;
+
+}
+/* Section 6 */
+#app-details{
+  margin-top: 2rem;
+  background-image:url('Images/app-bg.jpg');
+}
+#app-details .app-details1{
+  padding: 2.5rem 0 1rem 0;
+  text-align: center;
+}
+#app-details .app-details1 .app-img{
+  font-size: 50px;
+  padding-bottom: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#app-details .app-details1 .g-play{
+  cursor: pointer;
+}
+#app-details .app-details1 p{
+  color: #333;
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+  font-weight: bolder;
+  line-height: 1px;
+  letter-spacing: 0.5px;
+  padding-bottom: 1rem;
+}
+
+
+/*footer*/
+#footer{
+  background-color: black;
+  font-family: 'Teko', sans-serif;
+  padding: 0.5rem 0 0.5rem 0;
+}
+#footer .footer1{
+  text-align: center;
+  margin: 1rem 0 0 0;
+  padding:10px 0 10px 0;
+  line-height: 10px;
+}
+#footer .footer1 , .footer-img{
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+#footer .footer , .copy-right , .privacy-Policy a,p{
+    color: rgba(255,255,255,0.50);
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 0;
+    letter-spacing: 1px;
+}
+#footer .footer1 .privacy-Policy a:hover{
+  color:#fff;
+}
